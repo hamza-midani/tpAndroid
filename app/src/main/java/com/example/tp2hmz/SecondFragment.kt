@@ -47,6 +47,8 @@ class SecondFragment : Fragment() {
             randomNumber = random.nextInt(x.nn + 1)
         }
         binding.textviewRandom.text = randomNumber.toString()
+
+
     }
 
     override fun onDestroyView() {
